@@ -1,13 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+import flowbitePlugin from 'flowbite/plugin';
+
+export default {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
-    './node_modules/flowbite/**/*.js', 
+    "./index.html", 
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite-react/**/*.js",
+    "./node_modules/flowbite/**/*.js", // Include Flowbite in content
   ],
   theme: {
     extend: {},
   },
+  darkMode: 'class',
   plugins: [
-    require('flowbite/plugin')
+    flowbitePlugin,
   ],
-}
+};
