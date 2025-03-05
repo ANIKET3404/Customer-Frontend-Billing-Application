@@ -2,7 +2,9 @@
 # InvoNext (Smart E-commerce management)
 
 - **Over All View**
-  ![Dashboard](screenshots/Landingpage.png)
+ 
+ ![Landingpage](https://github.com/user-attachments/assets/c028eaaa-0fa7-41e4-bc56-8688235b6d6e)
+ 
   ![_](screenshots/overall_look.png)
 
 Manage Invoices for both online and offline purchases
